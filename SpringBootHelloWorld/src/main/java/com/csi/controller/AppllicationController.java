@@ -17,4 +17,9 @@ public class AppllicationController {
     public String sayAddress(){
         return "Deothan | Akole| MH";
     }
+
+    @GetMapping("/service")
+    public String csiServices(){
+        return "Software Development | QR Code Solution Provider";
+    }
 }
